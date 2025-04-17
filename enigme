@@ -1,0 +1,18 @@
+def Enigme1 (date):
+    
+    
+    
+   
+        
+    if i + j == 12 : 
+        if date == 39:
+            return "Vous avez trouvé le bon age!!"
+        else:
+            return "Cherche encore!"
+        
+    else:
+        return "La somme des chiffres n'est égale à 12."
+ 
+print(Enigme1(66))           
+print(Enigme1(60)) 
+print(Enigme1(39)) 
